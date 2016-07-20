@@ -1,4 +1,15 @@
-/* Comment */
+
+/* --------------------------------------------------------------
+
+    Author: Tom Williams
+    URL: http://tomwillia.ms
+
+    Project Name: Photoaid
+    Version: 1.0
+    URL: —
+
+   -------------------------------------------------------------- */
+
 
 body {
 	background-image: linear-gradient(0deg, #ff1949, transparent)
@@ -14,7 +25,11 @@ body {
 	letter-spacing: 1px;
 }
 
-#wrapper {
+.wrapper {
+}
+
+
+.main_card {
 	width: 600px;
 	margin: 15% auto;
 	text-align: center;
@@ -22,7 +37,7 @@ body {
 	padding: 8% 0;
 }
 
-#logo img{
+.logo img{
 	width: 250px;
 	height: auto;
 }
@@ -31,7 +46,7 @@ p {
 	margin-bottom: 1.8em;
 }
 
-#name, #mail, #password, #subscribe {
+.name, .mail, .password, .subscribe {
 	font-size: .7em;
 	text-align: center;
 	margin: .3em 0;
@@ -43,7 +58,7 @@ p {
 	border-radius: 500px;
 }
 
-#subscribe {
+.subscribe {
 	background-color: #FFF;
 	width: 322px;
 }
