@@ -25,13 +25,19 @@ body {
 	letter-spacing: 1px;
 }
 
+
+/* Flex Container */	
 .wrapper {
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
 }
 
-
+/* Flex Item */
 .main_card {
 	width: 600px;
-	margin: 15% auto;
 	text-align: center;
 	background: rgba(0, 0, 0, 0.75);
 	padding: 8% 0;
