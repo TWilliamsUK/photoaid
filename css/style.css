@@ -73,6 +73,11 @@ textarea:focus {
 	transition: all 0.3s ease;
 }
 
+/* Remove placeholder on focus */
+input:focus::-webkit-input-placeholder { 
+	color:transparent; 
+}
+
 .subscribe {
 	background-color: #FFF;
 	color: #000;
