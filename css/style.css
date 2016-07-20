@@ -1,0 +1,49 @@
+/* Comment */
+
+body {
+	background-image: linear-gradient(0deg, #ff1949, transparent)
+	background: url('') no-repeat center center fixed;
+	-moz-background-size: cover;
+	background-size: cover;
+	font-family: 'Source Sans Pro', sans-serif;
+	-webkit-font-feature-settings: "liga", "dlig";
+	color: #FFF;
+	font-size: 1.5em;
+	font-weight: 200;
+	line-height: 1.5em;
+	letter-spacing: 1px;
+}
+
+#wrapper {
+	width: 600px;
+	margin: 15% auto;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.75);
+	padding: 8% 0;
+}
+
+#logo img{
+	width: 250px;
+	height: auto;
+}
+
+p {
+	margin-bottom: 1.8em;
+}
+
+#name, #mail, #password, #subscribe {
+	font-size: .7em;
+	text-align: center;
+	margin: .3em 0;
+	background-color: transparent;
+	border: 1px solid #FFF;
+	width: 300px;
+	padding: 10px;
+	letter-spacing: 1px;
+	border-radius: 500px;
+}
+
+#subscribe {
+	background-color: #FFF;
+	width: 322px;
+}

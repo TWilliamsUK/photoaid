@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>photoaid</title>
+	<link rel="stylesheet" href="css/style.css">
+
+	<!--TYPE-->
+
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,200italic,400italic,600italic' rel='stylesheet' type='text/css'>
+
+	<!--RANDOM_BG_IMG-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	
+
+</head>
+
+<body>
+
+	<div id="wrapper">
+	
+		<!--Logo-->
+			
+		<div id="logo">
+			<img src="img/pa_logo.svg" alt="">
+		</div>
+
+			<p>Be the first to know. Get notified when we launch.</p>
+
+		<form id="signup">
+			 
+			<input type="text" id="name" name="user_name" placeholder="Name" size="30" max-length="40">
+			<input type="email" id="mail" name="user_email" placeholder="Email" size="30" max-length="40">
+			<!--<input type="password" id="password" name="user_password" placeholder="Enter a password" size="30" max-length="40">-->
+
+			<button type="submit" id="subscribe">Sign Up</button>
+
+		</form>
+
+	</div>
+	
+</body>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        var bg1 = 'img/image_1.jpg';
+        var bg2 = 'img/image_2.jpg';
+        var bg3 = 'img/image_3.jpg';
+        var bg4 = 'img/image_4.jpg';
+        var bg5 = 'img/image_5.jpg';
+
+        var bgs = [bg1, bg2, bg3, bg4, bg5];
+        var num = Math.floor(Math.random() * bgs.length);
+        var bg = new Image();
+        bg.src = bgs[num];
+        $(bg).load(function(){
+            document.body.style.backgroundImage = "url(" + this.src + ")";
+        });
+    });
+</script>
+
+</html>
