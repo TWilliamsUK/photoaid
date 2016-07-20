@@ -29,10 +29,9 @@ body {
 /* Flex Container */	
 .wrapper {
 	display: flex;
-	-webkit-align-items: center;
 	align-items: center;
-	-webkit-justify-content: center;
-	justify-content: center;
+  	justify-content: center;
+  	height: 100vh;
 }
 
 /* Flex Item */
@@ -40,7 +39,7 @@ body {
 	width: 600px;
 	text-align: center;
 	background: rgba(0, 0, 0, 0.75);
-	padding: 8% 0;
+	padding: 3em 1.5em;
 }
 
 .logo img{
