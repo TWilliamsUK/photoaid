@@ -64,8 +64,23 @@ p {
 	border-radius: 500px;
 }
 
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(232, 106, 129, 1); 
+	border: 1px solid rgba(232, 106, 129, 1);
+	transition: all 0.3s ease;
+}
+
 .subscribe {
 	background-color: #FFF;
 	color: #000;
 	width: 322px;
+	transition: all 0.3s ease;
+}
+
+.subscribe:hover {
+	background-color: rgba(232, 106, 129, 1);
+	border: 1px solid rgba(232, 106, 129, 1);
 }
